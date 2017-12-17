@@ -1,0 +1,117 @@
+a,
+a[href^="tel"],
+a[href^="mailto"],
+a[href*="//maps.apple.com"] {
+  color: #5f6a7c;
+  text-decoration: none;
+}
+
+.invert a,
+.invert a[href^="tel"],
+.invert a[href^="mailto"],
+.invert a[href*="//maps.apple.com"] {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+b a {
+  color: #2d394f;
+}
+
+#hero a {
+  color: #ffffff;
+}
+
+#outlook a {
+  padding: 0;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+.ExternalClass {
+  width: 100%;
+  line-height: 100%;
+}
+
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+@media only screen and (min-width: 281px) {
+  div[id="container"] {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media only screen and (min-width: 281px) and (max-width: 569px) and (-webkit-min-device-pixel-ratio: 1) {
+  div[id="container"] .column {
+    width: inherit !important;
+  }
+
+  div[id="container"] .column .embiggen {
+    width: 420px;
+    max-width: 420px;
+  }
+
+  div[id="container"] .column .embiggen .list td:first-child {
+    width: inherit !important;
+  }
+
+  div[id="container"] .column .embiggen .list td:last-child {
+    widthx: 500px !important;
+  }
+
+  div[id="container"] .column .embiggen .button td {
+    width: inherit !important;
+  }
+
+  div[id="container"] .column .embiggen img {
+    max-width: 100% !important;
+  }
+
+  #container .dashboardJewel,
+  #container .dashboardJewel table {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  #container .dashboardJewel table table {
+    width: inherit !important;
+  }
+
+  #container .webkit {
+    font-size: inherit !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  #container .nonWebkit {
+    font-size: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+  }
+}
+body {
+  background-color: #f8f8f8;
+}
